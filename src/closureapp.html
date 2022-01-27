@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var continant = "Asia";
+      function outerFunc() {
+        var country = "India";
+        var state = "MH";
+        function innerFunc() {
+          var dist = "Nanded";
+          var city = "Nanded";
+          function subInner() {
+            console.log(
+              continant,
+              " ",
+              country,
+              " ",
+              state,
+              " ",
+              dist,
+              " ",
+              city
+            );
+          }
+          subInner();
+        }
+        innerFunc();
+      }
+      outerFunc();
+    </script>
+  </head>
+  <body>
+    <p>This is Closure demo</p>
+  </body>
+</html>

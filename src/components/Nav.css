@@ -1,0 +1,16 @@
+.nav {
+  margin: 10px;
+  background-color: navy;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.nav a {
+  margin-left: 10px;
+  color: navy;
+  border: solid aquamarine 5px;
+  background-color: orange;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+}
