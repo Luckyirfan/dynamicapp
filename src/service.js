@@ -3,7 +3,7 @@ export const dataNav = [
   { title: "PickupBiz", link: "https://pickupbiz.com/" },
   { title: "Google", link: "https://www.google.com/" },
   { title: "Microsoft", link: "https://www.microsoft.com" },
-  { title: "Amazon", link: "https://www.amazon.in/" },
+  { title: "Amazon India", link: "https://www.amazon.in/" },
 ];
 
 export const dataEmp = [
